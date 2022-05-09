@@ -11,9 +11,9 @@ module.exports = async (req, res, next) => {
 
   try {
     const token = authHeader.split(" ")[1];
-
+   
     var decoded = jwt.verify(token, "shhhhh");
-
+    
     if (!decoded) {
       const error = new Error("Not authenticated");
       error.statusCode = 401;
