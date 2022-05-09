@@ -10,6 +10,7 @@
 - Get employee data by id - http://localhost:3000/getEmployee/id
 
 I also attached postman collections in the root folder of this project to make the test much easier, also note that for authentication im using Authentication Header with value from environment variable to make the postman authentication easier with format as below :
+
 Authorization : Bearer {{jwt_token}}
 
 ## Tech
