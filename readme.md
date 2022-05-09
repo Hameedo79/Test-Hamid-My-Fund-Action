@@ -1,5 +1,4 @@
 # Test Hamid for My Fund Action
-## Simple Test
 
 ## Endpoints
 
